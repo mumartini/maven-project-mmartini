@@ -21,6 +21,9 @@
 
 		<uid>mumartini061975</uid>
 		<pwd>junk</pwd>
+
+		<activemq.version>5.15.8</activemq.version>
+		<derby.version>10.14.2.0</derby.version>
 	</properties>
 
 	<build>
@@ -175,7 +178,7 @@
 		<dependency>
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
-			<version>10.14.2.0</version>
+			<version>${derby.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mule.transports</groupId>
@@ -186,17 +189,17 @@
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-client</artifactId>
-			<version>5.15.8</version>
+			<version>${activemq.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-broker</artifactId>
-			<version>5.15.8</version>
+			<version>${activemq.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-kahadb-store</artifactId>
-			<version>5.15.8</version>
+			<version>${activemq.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mule.modules</groupId>
